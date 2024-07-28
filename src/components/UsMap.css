@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.map-container {
+  position: relative;
+  width: 960px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.us-map {
+  width: 100%;
+  height: auto;
+}
+
+.vote-message {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
